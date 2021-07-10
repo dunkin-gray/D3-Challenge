@@ -4,16 +4,16 @@ For this challenge, I used the D3 JavaScript library to generate an interactive 
 
 You can view the visualization here: https://dunkin-gray.github.io/D3-Challenge/D3_data_journalism/index.html
 
-• D3_data_journalism/assets/css
+**D3_data_journalism/assets/css**
 
-**d3Style.css**: D3 styles pertaining to the design of app.js.
+****d3Style.css****: D3 styles pertaining to the design of app.js.
 
-**style.css**: Styles pertaining to the design of index.html.
+****style.css****: Styles pertaining to the design of index.html.
 
-• D3_data_journalism/assets/data
+**D3_data_journalism/assets/data**
 
-**data.csv:** the csv file with data from the US Census Bureau based on a 2014 American Community Survey (ACS).
+****data.csv:**** the csv file with data from the US Census Bureau based on a 2014 American Community Survey (ACS).
 
-• D3_data_journalism/assets/js
+**D3_data_journalism/assets/js**
 
-**app.js:** the JavaScript file using the D3 library to generate the graph and add interactivity to the scatter plot.
+****app.js:**** the JavaScript file using the D3 library to generate the graph and add interactivity to the scatter plot.
