@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title src = >US Healthcare</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- jQuery CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+</head>
+
+<!--Navbar Adjustments-->
+<body>
+    <div class = "wrapper">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+        <div><a class="navbar-brand" href = "https://dunkin-gray.github.io/"> Thaddeus Gray 
+        </a>
+    </div>
+        <div><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item">
+            <a class="nav-link" href="https://github.com/dunkin-gray">Github</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/thaddeusg2173/">LinkedIn</a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+        </li>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">    
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Projects
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://dunkin-gray.github.io/Movie-Database-API/HTML_Pages/index.html">The Movie Database API Analysis</a>
+            <a class="dropdown-item" href="https://dunkin-gray.github.io/Web-Design-Challenge/HTML_Pages/index.html">OpenWeatherMap API Analysis</a>
+            <a class="dropdown-item" href="#">Stock Market VBA Analysis</a>
+            </div>
+        </li>
+        </ul></div>
+    </div>
+    </nav>
+    <body>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">  
+              <h2 style="margin-top: 40px; margin-left: 3px; font-family: new century schoolbook">D3Times | National Healthcare Analysis</h1>
+            </div>
+            <div class="col-md-6" style="margin-top: -12px;">
+              <hr>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-9">
+              <div class="col-xs-12> 
+              <div class="d-flex justify-content-center"></div>
+              <div class="chart" style="margin-top: 10px;">
+                <!-- We append our chart here. -->
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-xs-12  col-md-12">
+              <div class="article">
+                <h3>Correlations Between Health Risks By State</h3><br>
+                <p>This visualization was made with data from the US Census Bureau based on a 2014 American Community Survey (ACS). I used the D3 JavaScript library to create an interactive graph that lets users filter through parameters on both axes. From my analysis, we can consider a few different correlations between health risks by state in the US.</p>
+      
+                <p>The most noticable correlation being between smoking and household income, with West Virginia having the highest percentage of smokers at 26.7% and a lower houshold income median of $41,059. The second noticable correlation exists between obesity and household income, with Arkansas having the highest obesity rate at 35.9% and a lower household income of $41,262. There may be a slight correlation between household income and healthcare acquision, with Texas having a relatively lower median household income of $53,035 and 24.9% of citizens lacking healthcare.</p>
+      
+                <p>Overall it appeared that household income was the best measure of correlation between healthcare acquision, smoking rates, and obesity levels across all states. However, since this dataset is from 2014, a current dataset would be required to make a more accurate, up-to-date conclusion.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <br>
+        <!-- Footer-->
+        <div id="footer">
+          <p>Thaddeus Duncan Gray &copy;2021</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+        <script type="text/javascript" src="assets/js/app.js"></script>
+      
+      </body>
+      
+      </html>
+      
